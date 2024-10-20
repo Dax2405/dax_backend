@@ -1,0 +1,83 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Archivos de configuración del entorno
+*.env
+*.local
+
+# Compilación de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Archivos creados por editores/IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+
+# Archivos estáticos generados
+staticfiles/
+static/
+media/
+
+# Archivos de migración (si prefieres gestionarlas en producción)
+migrations/*
+
+# Django secret key
+secret.key
+
+# Directorios de testing y cobertura
+htmlcov/
+coverage/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py[cod]
+*.tar
+*.zip
+
+# Archivos y directorios creados por PyInstaller
+# se recomienda usar un entorno de compilación dedicado
+build/
+dist/
+*.manifest
+*.spec
+
+# Archivos de traducción
+*.mo
+
+# Archivos de empaquetado
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+
+# Documentación
+docs/_build/
+
+# Sistemas de gestión de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Archivos temporales creados por el sistema operativo
+.DS_Store
+Thumbs.db
